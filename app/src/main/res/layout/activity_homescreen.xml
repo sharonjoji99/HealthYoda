@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <?xml version="1.0" encoding="utf-8"?>
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
         <ImageView
@@ -57,19 +54,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="HealthYoda"
-                android:textStyle="bold"
                 android:layout_marginLeft="105px"
-
+                android:text="HealthYoda"
                 android:textColor="#FFF"
-                android:textSize="35sp" />
+
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
             <TextView
+                andoroi
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Your personal Health assistant"
                 android:layout_marginLeft="85px"
-                andoroi
+                android:text="Your personal Health assistant"
                 android:textColor="#FFF"
                 android:textSize="16sp" />
 
@@ -219,6 +216,17 @@
             app:layout_constraintHorizontal_bias="0.114"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome,"
+            android:textColor="#BBB"
+            android:textSize="70px"
+
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="152dp" />
 
 
     </android.support.constraint.ConstraintLayout>
