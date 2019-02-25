@@ -224,7 +224,7 @@
             android:layout_height="wrap_content"
             android:text="Welcome,"
             android:textColor="#BBB"
-            android:textSize="25"
+            android:textSize="70px"
 
             tools:layout_editor_absoluteX="90dp"
             tools:layout_editor_absoluteY="152dp" />
