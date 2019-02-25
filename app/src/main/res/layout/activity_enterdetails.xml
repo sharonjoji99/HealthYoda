@@ -28,8 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
-            android:textColor="@color/blk"
             android:text="@string/details"
+            android:textColor="@color/blk"
             android:textSize="30sp" />
 
         <View
