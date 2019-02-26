@@ -3,6 +3,8 @@
 	$json = $_GET['json'];
 	$json = json_decode($json);
 
+	$con = pg_connect("host=localhost port=5432 dbname=healthyoda user=postgres password=xpert101");
+
 	$user = $json->uid;
 	$gender = $json->gender;
 	$a = $json->age;
@@ -19,6 +21,10 @@
 	if($gender){
 		$out = $out * 0.75;
 	}
+	$out = ceil($out);
+
+	$qry = "INSERT INTO tbl_report(user_id, gender, age, vit_d, cholesterol, glucose, bp, bmi, calorie_target) VALUES ($user,$gender,$a,$b,$c,$d,$e,$f,$out);";	
+	pg_query($con, $qry);
 
 	echo $out;
 ?>

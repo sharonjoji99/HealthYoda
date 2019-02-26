@@ -5,6 +5,7 @@
 
 	$phno = pg_escape_string($json->phno);
 	$password = hash("sha256", pg_escape_string($json->password));//pg_escape_string($json->password));
+	
 	$con = pg_connect("host=localhost port=5432 dbname=healthyoda user=postgres password=xpert101");
 	$qry = "SELECT pass FROM tbl_user WHERE phno = '".$phno."'";
 	$select = pg_query($con, $qry);
