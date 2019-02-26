@@ -27,8 +27,14 @@
         android:layout_height="40dp"
         android:layout_above="@+id/editText4"
         android:layout_centerHorizontal="true"
-        android:layout_margin="60px"
-        android:layout_marginBottom="62dp"
+        android:layout_margin="17dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="60dp"
         android:background="#11000000"
         android:ems="10"
         android:hint="@string/fn"
@@ -43,17 +49,17 @@
         android:layout_alignStart="@+id/editText1"
         android:layout_alignLeft="@+id/editText1"
         android:layout_alignBottom="@+id/editText3"
-        android:layout_marginBottom="63dp"
+        android:layout_marginBottom="65dp"
         android:background="#11000000"
         android:ems="10"
-        android:hint="@string/pw"
-        android:inputType="textPassword"
+        android:hint="@string/pn"
+        android:inputType="phone"
         android:textColorHint="@color/whitish"
         android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_alignStart="@+id/editText1"
         android:layout_alignLeft="@+id/editText1"
@@ -62,7 +68,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
-        android:layout_marginBottom="160px"
+        android:layout_marginBottom="60dp"
         android:background="#11000000"
         android:ems="10"
         android:hint="@string/mail"
@@ -76,22 +82,36 @@
         android:layout_height="40dp"
         android:layout_alignStart="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="350dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="@string/pw"
+        android:inputType="textPassword"
+        android:textColorHint="@color/whitish" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_marginTop="410dp"
         android:background="#11000000"
         android:ems="10"
         android:hint="@string/loc"
         android:inputType="textPostalAddress"
-        android:textColorHint="@color/whitish" />
+        android:textColorHint="@color/whitish"
+        />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="500dp"
         android:background="@color/colorAccent"
         android:textColor="@color/f1"
-        android:textSize="25dp"
+        android:textSize="20sp"
 
         android:text="@string/register" />
 

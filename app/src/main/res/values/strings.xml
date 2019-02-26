@@ -8,4 +8,5 @@
     <string name="gender">Gender</string>
     <string name="details">Enter your details</string>
     <string name="register">Register</string>
+    <string name="pn">Phone number</string>
 </resources>
